@@ -15,12 +15,6 @@ class func_node:
     def __str__(self):
         return str(self.a) + str(self.f) + str(self.b)
 
-class container:
-    def __init__(self, a):
-        self.a = a
-    def get_val(self):
-        return self.a.get_val()
-
 class num:
     def __init__(self, num):
         self.num = int(num)
